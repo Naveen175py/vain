@@ -1,0 +1,271 @@
+/*
+body{
+    position: relative;
+    top: 0px;
+  background-color: #232323;
+}
+  #mobile{
+    
+    position: absolute;
+    top: 204px;
+    right: 90;
+    width: 473px ;
+    height: 580px;
+  }
+  #store{
+    
+    position: absolute;
+    bottom: 180px;
+    left: 90px;
+    width: 401px ;
+    height: 64px;
+  }
+
+
+  .hero-container {
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  
+  .hero-container > h1 {
+  
+    left: 90px;
+    top:194px;
+    position: absolute;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 108px;
+    display: flex;
+    align-items: left;
+    letter-spacing: 0.016em;
+  
+    text-align: left;
+
+    color: #FFFFFF;
+  }
+  .hero-container > h1>strong {
+  
+    font-style: none;
+    font-weight: 300;
+    
+  
+    font-size: 60px;
+    line-height: 108px;
+    display: flex;
+    align-items: left;
+    letter-spacing: 0.016em;
+  
+    text-align: left;
+
+    color: #B75CFF;
+  }
+
+  .hero-container > .heading2 {
+ 
+    position: absolute;
+    left: 90px;
+    top:190px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 306px;
+    display: flex;
+    position: absolute;
+    align-items: left;
+    letter-spacing: 0.016em;
+    text-align: left;
+
+    color: #FFFFFF;
+  }
+  
+  .hero-container > p {
+    position: absolute;
+    width: 720px;
+    height: 159px;
+    left: 90px;
+    top: 400px;
+    
+    font-family: 'Sulphur Point';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 153%;
+    
+    
+    display: flex;
+    align-items: left;
+    text-align: left;
+    letter-spacing: 0.036em;
+    
+    color: #D5D5D5;
+  }
+  
+  .hero-btns {
+    margin-top: 32px;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  #h1{
+    position: absolute;
+    left: 90px;
+    top:140px;
+  
+    font-style: 
+    Bebas Neue
+    ;
+
+
+    display: flex;
+    position: absolute;
+    align-items: left;
+    letter-spacing: 0.016em;
+    text-align: left;
+
+    color:#6365EF ;
+  }
+  #h1b{
+    position: absolute;
+    left: 90px;
+    top:260px;
+   
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+   
+    display: flex;
+    position: absolute;
+    align-items: left;
+    letter-spacing: 0.016em;
+    text-align: left;
+
+    color: #FFFFFF;
+  }
+  #h1c{
+    position: absolute;
+    left: 90px;
+    top:230px;
+    
+    font-style: normal;
+    font-weight: 280;
+    font-size: 60px;
+    line-height: 306px;
+    display: flex;
+    position: absolute;
+    align-items: left;
+    letter-spacing: 0.016em;
+    text-align: left;
+     
+
+    color: #FFFFFF;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+     
+      left: 90px;
+      top:194px;
+      position: absolute;
+      
+      font-style: normal;
+      font-weight: 300;
+      font-size: 60px;
+      line-height: 108px;
+      display: flex;
+      align-items: left;
+      letter-spacing: 0.016em;
+    
+      text-align: left;
+  
+      color: #FFFFFF;
+    }
+    .hero-container > h1>strong {
+      
+      font-style: none;
+      font-weight: 300;
+      
+    
+      font-size: 40px;
+      line-height: 108px;
+      display: flex;
+      align-items: left;
+      letter-spacing: 0.016em;
+    
+      text-align: left;
+  
+      color: #B75CFF;
+    }
+    .hero-container > .heading2 {
+     
+      position: absolute;
+      left: 24px;
+      top: 55px;
+      font-family: 'Bebas Neue';
+    
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 306px;
+      display: flex;
+      position: absolute;
+      align-items: left;
+      letter-spacing: 0.016em;
+      text-align: left;
+      color: #FFFFFF;
+    }
+    
+    .hero-container > p {
+      position: absolute;
+      width: 380px;
+      height: 104px;
+      left: 90px;
+      top: 168px;
+      
+      font-family: 'Sulphur Point';
+      font-style: normal;
+      font-size: 14px;
+      line-height: 153%;
+   
+      
+      display: flex;
+      align-items: left;
+      text-align: left;
+      letter-spacing: 0.036em;
+      
+      color: #D5D5D5;
+    }
+    
+    .hero-btns {
+      margin-top: 32px;
+    }
+    
+    .hero-btns .btn {
+      margin: 6px;
+    }
+    
+    .fa-play-circle {
+      margin-left: 4px;
+    }
+    
+  }
+*/
